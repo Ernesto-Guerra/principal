@@ -11,8 +11,9 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/testnofuncionaxd', function () {
     return view('casa');
 });
 
-Route::resource('data', 'MainController');
+Route::resource('/main', 'MainController');
+

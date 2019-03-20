@@ -9,6 +9,7 @@
     <title>Main Page</title>
 </head>
 <body>
+    @csrf
     <div class="container-fluid">
         <label for="">Sistema de vigilancia</label>
         <table class="table table-dark table-striped">
